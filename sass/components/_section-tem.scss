@@ -1,0 +1,136 @@
+.section.team {
+  background-color: $second-color-background;
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  margin-bottom: 0px;
+}
+.team-title {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+.team-title img {
+  display: block;
+  margin-bottom: 30px;
+}
+.team-title .item {
+  min-width: 270px;
+  background-color: $white-color;
+  border-radius: 4px;
+  padding-bottom: 24px;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 1px 3px rgba(0, 0, 0, 0.12);
+  }
+}
+
+.team-title .item + .item {
+  margin-left: 30px;
+}
+
+.section.team .section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  margin-bottom: 50px;
+  margin-top: 0px;
+  color: $colorofmaintext;
+}
+.social {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+
+  transition-property: background-color;
+  border-radius: 50%;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: $akcent;
+    border-radius: 50%;
+  }
+}
+
+.instagram {
+  fill: $items-color;
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social:hover > .instagram {
+  fill: $white-color;
+}
+.social:focus > .instagram {
+  fill: $white-color;
+}
+.twitter {
+  fill: $items-color;
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social:hover > .twitter {
+  fill: $white-color;
+}
+.social:focus > .twitter {
+  fill: $white-color;
+}
+.facebook {
+  fill: $items-color;
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social:hover > .facebook {
+  fill: $white-color;
+}
+.social:focus > .facebook {
+  fill: $white-color;
+}
+.linkedin {
+  fill: $items-color;
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social:hover > .linkedin {
+  fill: $white-color;
+}
+.social:focus > .linkedin {
+  fill: $white-color;
+}
+.logotips {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.section.team .own-name {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: $colorofmaintext;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+.section.team .own-skills {
+  text-align: center;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  margin-bottom: 16px;
+  margin-top: 0px;
+}

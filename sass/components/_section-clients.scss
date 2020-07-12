@@ -1,0 +1,54 @@
+.section.clients .section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  color: $colorofmaintext;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.section.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  margin-bottom: 0px;
+  .item {
+    display: flex;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+}
+
+.item .item-box + .item-box {
+  margin-left: 30px;
+}
+.item .icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid $items-color;
+  border-radius: 4px;
+  width: 170px;
+  height: 90px;
+
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: $cubic;
+
+  &:hover,
+  &:focus {
+    border: 1px solid $akcent;
+    border-radius: 4px;
+  }
+}
+
+.clients {
+  fill: $items-color;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: $cubic;
+  &:hover,
+  &:focus {
+    fill: $akcent;
+  }
+}

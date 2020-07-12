@@ -1,0 +1,24 @@
+.logo {
+  color: $colorofmaintext;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0.03em;
+  font-weight: bold;
+}
+.logo.main {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo.secondary {
+  display: inline-block;
+  font-size: 22px;
+  line-height: 1.18;
+  margin-bottom: 10px;
+}
+span {
+  color: $akcent;
+}
+.span {
+  color: $white-color;
+}

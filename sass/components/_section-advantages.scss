@@ -1,0 +1,77 @@
+.section.advantages .section-title {
+  color: $colorofmaintext;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+.advantages-title {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+.advantages-title .items::before {
+  content: "";
+  display: block;
+  height: 120px;
+  margin-bottom: 30px;
+
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.advantages-title .items:nth-of-type(1)::before {
+  background-image: url(../images/antenna.svg), url(../images/Rectangle.svg);
+}
+.advantages-title .items:nth-of-type(2)::before {
+  background-image: url(../images/clock.svg), url(../images/Rectangle.svg);
+}
+.advantages-title .items:nth-of-type(3)::before {
+  background-image: url(../images/diagram1.svg), url(../images/Rectangle.svg);
+}
+.advantages-title .items:nth-of-type(4)::before {
+  background-image: url(../images/astronaut1.svg), url(../images/Rectangle.svg);
+}
+.advantages-title .items + .items {
+  margin-left: 30px;
+}
+.advantages-title .items {
+  width: 270px;
+}
+.section.advantage,
+.section.feathure,
+.section.team,
+.section.clients,
+footer {
+  letter-spacing: 0.03em;
+}
+
+.section.advantages {
+  padding-top: 94px;
+  margin-bottom: 0px;
+  p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+}
+.section.advantages .container {
+  padding-bottom: 94px;
+  border-bottom: 1px solid #ececec;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+}
